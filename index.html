@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BarberShop Template | R.S Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+</head>
+<body>
+
+  <nav>
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><i class="ri-close-line"></i></li>
+      <li class="sidebar-links"><a href="#home">Home</a></li>
+      <li class="sidebar-links"><a href="#popular">Popular Styles</a></li>
+      <li class="sidebar-links"><a href="#menu">Menu</a></li>
+      <li class="sidebar-links"><a href="#customers">Our Customers</a></li>
+      <li class="sidebar-links"><a href="#about">About Us</a></li>
+    </ul>
+
+    <ul>
+      <img src="assets/babershop-logo.png">
+      <li class="menu-links hideMenu"><a href="#home">Home</a></li>
+      <li class="menu-links hideMenu"><a href="#popular">Popular Styles</a></li>
+      <li class="menu-links hideMenu"><a href="#menu">Menu</a></li>
+      <li class="menu-links hideMenu"><a href="#customers">Our Customers</a></li>
+      <li class="menu-links hideMenu"><a href="#about">About Us</a></li>
+      <li onclick="showSidebar()"><i class="ri-menu-3-line"></i></li> 
+    </ul>
+  </nav>
+  
+
+
+  <div class="hero" id="home">
+    <p>TAKING CARE OF YOURSELF NEVER GOES OUT OF STYLE</p>
+  </div>
+
+  <main>
+    <div class="styles-container" id="popular">
+      <div class="banner">Popular Styles</div>
+      <div class="banner-1">
+        <div class="styles">
+          <img src="assets/farmer.png" alt="Farmer-Styles">
+          <div class="info">
+            <p>Farmer</p>
+          </div>
+        </div>
+        <div class="styles">
+          <img src="assets/minimal.png" alt="Minimal-Styles">
+          <div class="info">
+            <p>Minimal</p>
+          </div>
+        </div>
+        <div class="styles">
+          <img src="assets/mustache.png" alt="Mustache-Styles">
+          <div class="info">
+            <p>Mustache</p>
+          </div>
+        </div>
+        <div class="styles">
+          <img src="assets/viking.png" alt="Viking-Styles">
+          <div class="info">
+            <p>Viking</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu-container" id="menu">
+      <div class="banner">Menu</div>
+      <div class="menu-container-items">
+        <div class="menu-container-items-container">
+          <h2>Haircuts</h2>
+          <div class="menu-container-item">
+            <div class="menu-container-item-content">
+              <p class="menu-item">Standard Haircut</p>
+              <p class="menu-item-price">$14</p>
+            </div>
+            <div class="menu-container-item-content">
+              <p class="menu-item">Wax</p>
+              <p class="menu-item-price">$22</p>
+            </div>
+            <div class="menu-container-item-content">
+              <p class="menu-item">The King Tut</p>
+              <p class="menu-item-price">$18</p>
+            </div>
+            <div class="menu-container-item-content">
+              <p class="menu-item">Hairdo</p>
+              <p class="menu-item-price">$45</p>
+            </div>
+            <div class="menu-container-item-content">
+              <p class="menu-item">The Elvis</p>
+              <p class="menu-item-price">$22</p>
+            </div>
+            <div class="menu-container-item-content">
+              <p class="menu-item">Fan</p>
+              <p class="menu-item-price">$6</p>
+            </div>
+          </div>
+    
+          <h2>Beard Services</h2>
+          <div class="menu-container-item">
+            <div class="menu-container-item-content">
+              <p class="menu-item">Beard Trim</p>
+              <p class="menu-item-price">$12</p>
+            </div>
+            <div class="menu-container-item-content">
+              <p class="menu-item">Wax</p>
+              <p class="menu-item-price">$11</p>
+            </div>
+            <div class="menu-container-item-content">
+              <p class="menu-item">Dye & Condition</p>
+              <p class="menu-item-price">$32</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-customers-container" id="customers">
+      <div class="banner">Our Customers</div>
+      <div class="banner-3">
+        <div class="image-gallery">
+          <div class="customer-name">Jacob</div>
+          <a href="assets/Jacob.jpg" target="_blank"><img src="assets/Jacob.jpg" alt="Customer - Jacob"></a>
+        </div>
+        <div class="image-gallery">
+          <div class="customer-name">Jacob</div>
+          <a href="assets/Abraham.jpg" target="_blank"><img src="assets/Abraham.jpg" alt="Customer - Abraham"></a>
+        </div>
+        <div class="image-gallery">
+          <div class="customer-name">Aldert</div>
+          <a href="assets/Aldert.jpg" target="_blank"><img src="assets/Aldert.jpg" alt="Customer - Aldert"></a>
+        </div>
+        <div class="image-gallery">
+          <div class="customer-name">André</div>
+          <a href="assets/André.jpg" target="_blank"><img src="assets/Andre.jpg" alt="Customer - André"></a>
+        </div>
+        <div class="image-gallery">
+          <div class="customer-name">Andrew</div>
+          <a href="assets/Andrew.jpg" target="_blank"><img src="assets/Andrew.jpg" alt="Customer - Andrew"></a>
+        </div>
+        <div class="image-gallery">
+          <div class="customer-name">Akbar</div>
+          <a href="assets/Akbar.jpg" target="_blank"><img src="assets/Akbar.jpg" alt="Customer - Akbar"></a>
+        </div>
+        <div class="image-gallery">
+          <div class="customer-name">Berach</div>
+          <a href="assets/Berach.jpg" target="_blank"><img src="assets/Berach.jpg" alt="Customer - Berach"></a>
+        </div>
+        <div class="image-gallery">
+          <div class="customer-name">Zubin</div>
+          <a href="assets/Zubin.jpg" target="_blank"><img src="assets/Zubin.jpg" alt="Customer - Zubin"></a>
+        </div>
+        <div class="image-gallery">
+          <div class="customer-name">Jabari</div>
+          <a href="assets/Jabari.jpg" target="_blank"><img src="assets/Jabari.jpg" alt="Customer - Jabari"></a>
+        </div>
+      </div>
+    </div>
+    <div class="about-us-container" id="about">
+      <div class="banner">About Us</div>
+      <div class="banner-4">
+        <div class="about-container intro-section">
+          <p>What makes our barbershop so unique?
+             This is a great place to write about what you love about working with beards, 
+            where you picked up your skills, and why customers should choose you!</p>
+        </div>
+        <div class="about-container available-section">
+          <h2>Business Hours</h2>
+          <div class="available-container">
+            <p>Mon - Fri</p>
+            <p>9:00 am - 5:00 pm</p>
+          </div>
+          <div class="available-container">
+            <p>Sat - Sun</p>
+            <p>Closed</p>
+          </div>
+        </div>
+        <div class="about-container contact-section">
+          <h2>Contact</h2>
+          <p>121 West 18th Srt.New York, NY</p>
+          <a href="tel: 083 857 4219">Phone: (+27) 83 857 4219</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+
+  <footer></footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
